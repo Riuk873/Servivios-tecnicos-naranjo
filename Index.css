@@ -1,0 +1,267 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: helvetica, Sans-Serif;
+  margin: 0;
+}
+h1{
+  font-size: 3.5em;
+}
+h2{
+  font-size: 2.7em;
+}
+h3{
+  font-size: 2em;
+}
+p{
+  font-size: 1.25em;
+}
+ul{
+  list-style: none;
+}
+li{
+  font-size: 1.25em;
+}
+button{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  color: white;
+  background-color: rgba(240,0,0,0.9);
+}
+button:hover{
+  rgba(255,0,0,0.6)
+}
+
+.container{
+  max-width: 1400px;
+  margin: auto;
+}
+.color-acento{
+  color: rgba(225,10,10,0.8);
+}
+header{
+  background-color: rgb(220,220,220);
+  display: flex;
+  flex-direction: column;
+}
+header .logo{
+  margin: 0
+  padding: 25px 30px;
+  border-radius: 10px;
+  flex-direction: relative;
+}
+header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+header a{
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-family: Helvetica;
+  font-size: 1.5em;
+  
+}
+header a:hover{
+  rgba(240,0,0,0.6)
+}
+#section-inicio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image:
+  url(imagenes/sectioninicio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#section-inicio h1{
+  color: white;
+}
+
+* {
+margin: 0px;
+padding: 0px;
+  }
+body .botona{
+  background-color: rgba(150,0,0,0.9);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+#header {
+ margin: auto;
+ width: 500px;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+ul,
+ ol {
+ list-style: none;
+ }
+.nav > li {
+float: left;
+ }
+      .nav li a {
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 12px;
+        display: block;
+      }
+      .nav li a:hover {
+        background-color: #434343;
+      }
+      .nav li ul {
+        display: none;
+        position: absolute;
+        min-width: 140px;
+      }
+      .nav li:hover > ul {
+        display: block;
+      }
+      .nav li ul li {
+        position: relative;
+      }
+      .nav li ul li ul {
+        right: -140px;
+        top: 0px;
+      }
+#n-servicio{
+        
+ }
+#n-servicio .container{
+text-align: center;
+padding: 200px 12px;
+ }
+#section-solicitas{
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  text-align: center;
+#section-solicitas h2{
+  margin-top: 0px;
+}
+}
+#section-solicitas .container{
+  padding: 150em 12em;
+}
+#section-solicitas p{
+  display: none;
+}
+#section-solicitas .carta{
+  padding: 100px 12px;
+  margin: 20px;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px 300px;
+}
+.carta:first-child{
+  background-image: url(imagenes/carta1.jpg);
+}
+.carta:nth-child(2){
+  background-image: url(imagenes/carta2.jpg);
+}
+.carta:nth-child(3){
+  background-image: url(imagenes/carta3.jpg);
+}
+.carta:nth-child(4){
+  background-image: url(imagenes/carta4.jpg);
+}
+.carta:last-child{
+  background-image: url(imagenes/carta5.jpg);
+}
+#section-queremos{
+  background-color: rgb(0,0,0);
+  color: white;
+  text-align: center;
+  padding: 25px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+}
+#section-contacto .container{
+  text-align: center;
+  padding: 25px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(0,0,0,0.9);
+  margin-top: 20px;
+}
+#section-contacto .whatsapp1{
+  color: rgba(30,0,30,0.9);
+  padding: 20px 12px;
+  margin-top: 40px;
+}
+#section-contacto .whatsapp2{
+  color: rgba(30,0,30,0.9);
+  padding: 20px 12px;
+  margin-top: 20px;
+}
+#section-contacto .whatsapp3{
+  color: rgba(30,0,30,0.9);
+  padding: 20px 12px;
+  margin-top: 20px;
+}
+#volver-inicio{
+  text-align: center;
+  padding: 20px 15px;
+}
+#volver-inicio .v-inicio{
+  text-align: center;
+  color: black;
+}
+footer{
+  background-color: rgb(230,230,230);
+}
+footer p{
+  margin: 0
+  color: rgb(100,100,100);
+}
+footer .container{
+  height: 130px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media(min-width: 720px){
+  header{
+    position: fixed;
+    width: 100%;
+  }
+  header .container{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+  }
+  header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+}
