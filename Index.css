@@ -89,7 +89,7 @@ header a:hover{
   flex-direction: column;
   height: 90vh;
   background-image:
-  url(imagenes/sectioninicio.jpg);
+  url(sectioninicio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -178,19 +178,19 @@ padding: 200px 12px;
   background-size: 500px 300px;
 }
 .carta:first-child{
-  background-image: url(imagenes/carta1.jpg);
+  background-image: url(carta1.jpg);
 }
 .carta:nth-child(2){
-  background-image: url(imagenes/carta2.jpg);
+  background-image: url(carta2.jpg);
 }
 .carta:nth-child(3){
-  background-image: url(imagenes/carta3.jpg);
+  background-image: url(carta3.jpg);
 }
 .carta:nth-child(4){
-  background-image: url(imagenes/carta4.jpg);
+  background-image: url(carta4.jpg);
 }
 .carta:last-child{
-  background-image: url(imagenes/carta5.jpg);
+  background-image: url(carta5.jpg);
 }
 #section-queremos{
   background-color: rgb(0,0,0);
